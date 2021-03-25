@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    image: ghcr.io/kamin124712t/static-web:dev
+    ports:
+      - "8080:80"
