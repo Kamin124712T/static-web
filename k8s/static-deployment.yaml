@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: opsta-dev-web
+  name: static-dev-web
   namespace: student13-static-dev
   labels:
     app: static-dev-web
